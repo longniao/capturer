@@ -1,4 +1,4 @@
-CREATE TABLE `t_flounder_callcenter_call_record` (
+CREATE TABLE `table` (
   `record_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `callid` char(32) NOT NULL DEFAULT '' COMMENT 'CallID',
   `remote_url` varchar(512) NOT NULL DEFAULT '' COMMENT 'RecordFile',
