@@ -137,6 +137,7 @@ func main() {
 
 	for {
 		run(db, webroot)
-		time.Sleep(1)
+		log.Println(time.Now())
+		time.Sleep(1000000000)
 	}
 }
